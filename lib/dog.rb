@@ -1,11 +1,14 @@
 class Dog
   
-def name=(dog_name)
-  @him_name = dog_name
+def initialize(dog_name, man_name)
+  @dog_name = dog_name
+  @man_name = man_name
 end
 
-def name
-  @him_name
+def name=(their_name)
+  dog_name || man_name
+  @dog_name = dog_name
+  @man_name = man_name
 end
 
 end
