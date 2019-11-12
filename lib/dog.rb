@@ -8,8 +8,8 @@ def name
   @name
 end
 
-def name
-
+def name=(their_name)
+  @name = their_name
 end
 
 
