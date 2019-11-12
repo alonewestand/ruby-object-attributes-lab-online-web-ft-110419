@@ -11,9 +11,7 @@ def name=(their_name)
   @man_name = man_name
 end
 
+def name
+  "#{@dog_name}" || "#{man_name}"
 end
 
-fido = Dog.new
-fido.name = "Porkchop"
-
-return fido.name
