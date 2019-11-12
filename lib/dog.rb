@@ -8,9 +8,5 @@ def name
   @name
 end
 
-def name
-  "#{@dog_name}" || "#{@man_name}"
-end
-
 end
 
