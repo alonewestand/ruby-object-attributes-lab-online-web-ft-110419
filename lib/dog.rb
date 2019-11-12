@@ -13,4 +13,4 @@ end
 fido = Dog.new
 fido.name = "Porkchop"
 
-fido.name
+return fido.name
