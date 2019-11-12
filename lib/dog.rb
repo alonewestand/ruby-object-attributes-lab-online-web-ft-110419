@@ -5,7 +5,7 @@ def name=(dog_name)
 end
 
 def name
-  @name
+  @him_name
 end
 
 end
