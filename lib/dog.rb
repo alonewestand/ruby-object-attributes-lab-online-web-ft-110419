@@ -11,6 +11,6 @@ end
 end
 
 fido = Dog.new
-porkchop.name = "Porkchop"
+fido.name = "Porkchop"
 
 puts porkchop.name
