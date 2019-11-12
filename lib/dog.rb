@@ -12,6 +12,6 @@ def name=(their_name)
 end
 
 def name
-  "#{@dog_name}" || "#{man_name}"
+  "#{@dog_name}" || "#{@man_name}"
 end
 
