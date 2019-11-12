@@ -1,7 +1,7 @@
 class Dog
   
-def initialize(dog_name, man_name)
-  @dog_name = dog_name
+def initialize(dog_name)
+  @name = dog_name
   @man_name = man_name
 end
 
@@ -13,5 +13,7 @@ end
 
 def name
   "#{@dog_name}" || "#{@man_name}"
+end
+
 end
 
