@@ -9,3 +9,8 @@ def name
 end
 
 end
+
+porkchop = Dog.new
+porkchop.name = "Porkchop"
+
+puts porkchop.name
