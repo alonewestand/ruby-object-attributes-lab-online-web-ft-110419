@@ -21,3 +21,7 @@ end
 fido = Dog.new
 
 fido.name = "#{@name}"
+
+snoopy = Dog.new
+
+snoopy.breed = "#{@breed}"
